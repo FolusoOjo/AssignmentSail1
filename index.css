@@ -1,0 +1,534 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  padding: 1rem;
+  background: white;
+}
+
+#imgs img {
+  margin-left: 5px;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.margin {
+  margin: 0 1.5rem;
+}
+.anchor a {
+  font-size: 17px;
+  margin: 0 5px;
+}
+
+#assets img {
+  padding: 5px;
+  margin: 2px;
+}
+menu {
+  padding: 0 2rem;
+}
+#bgimg {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+
+  background-image: url(./assets/scandinavian-interior-mockup-wall-decal-background\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bgimg-text {
+  background: #fff3e3;
+  width: 45%;
+  position: absolute;
+  top: 27%;
+  right: 2%;
+}
+#img-text {
+  margin: 2rem;
+}
+#New {
+  font-size: 16px;
+  color: #333333;
+  font-weight: 600;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+#img-text h3 {
+  color: #b88e2f;
+  font-size: 52px;
+  font-weight: 700;
+}
+#lorem {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 500;
+  padding: 0 2px 2px 0;
+  margin: 10px 10px 10px 0;
+}
+#img-text button {
+  border-color: transparent;
+  background-color: #b88e2f;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 1.5rem;
+  font-weight: 700;
+  padding: 15px 30px;
+}
+#img-text button:hover {
+  padding: 20px 35px;
+}
+#Browse {
+  text-align: center;
+  margin: 2rem;
+}
+#Browse h4 {
+  margin: 1rem 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #333333;
+}
+#Browse p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #666666;
+
+  margin: 0.5rem 0;
+}
+.browse-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 15px 0;
+  margin-left: 3rem;
+}
+.browse-img Images {
+  margin: 1rem;
+  border-radius: 5px;
+}
+.Images p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: center;
+}
+.width {
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+}
+.width p {
+  color: #333333;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#ourproducts {
+  padding: 0 3rem;
+  margin: 1rem 0 1.5rem 0;
+}
+#Ourproducts {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+.ourproductsdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 0.5rem;
+}
+
+.ourproductsdiv img {
+  text-align: center;
+  width: 90%;
+}
+
+.productstext {
+  width: 90%;
+  margin-bottom: 10px;
+  background: #f4f5f7;
+}
+
+.small1t h4 {
+  color: #3a3a3a;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.small1t h5 {
+  color: #898989;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 3px;
+  padding: 5px 0;
+}
+.small1t h6 {
+  color: #3a3a3a;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  padding-bottom: 2px;
+}
+.small1t h6 span {
+  color: #b0b0b0;
+  font-size: 12px;
+  font-weight: 400;
+}
+#butss {
+  margin-top: 2rem;
+}
+#button {
+  color: #b88e2f;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid #b88e2f;
+  padding: 7px 45px;
+  display: block;
+  margin: auto;
+}
+.Rectangle {
+  background: #fcf8f3;
+}
+#rect {
+  margin-left: 3rem;
+  margin-right: 2rem;
+  width: 100%;
+}
+#rect h3 {
+  color: #3a3a3a;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+#rect p {
+  color: #616161;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-top: 5px;
+}
+#rect button {
+  background: #b88e2f;
+  border-color: transparent;
+  color: white;
+  padding: 8px 20px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.recttt {
+  position: relative;
+}
+#Rect24 img {
+  position: relative;
+}
+#Rect24 div {
+  position: absolute;
+  left: 20px;
+  bottom: 75px;
+  background-color: #ffffffb8;
+}
+#Rect24 div h5 {
+  color: #616161;
+  font-size: 15px;
+  font-weight: 500;
+
+  margin: 15px 15px 5px 12px;
+}
+#Rect24 div p {
+  color: #3a3a3a;
+  margin: 5px 10px 15px 12px;
+  font-size: 25px;
+  font-weight: 600;
+}
+#Arrow {
+  position: absolute;
+  bottom: 71px;
+  left: 182px;
+}
+
+#Indi {
+  width: 25%;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+#Rect25 {
+  position: relative;
+  bottom: 28px;
+  left: 10px;
+}
+.rect26 {
+  position: relative;
+}
+#Rect26 {
+  position: relative;
+  left: 15px;
+  bottom: 38px;
+}
+
+.Furniro {
+  margin-top: 2rem;
+}
+#Furniro {
+  text-align: center;
+}
+#Furniro p {
+  color: #616161;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+#Furniro h5 {
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 3rem;
+}
+
+.small1,
+.small2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small1t {
+  width: 100%;
+}
+.david {
+  position: relative;
+}
+.davidImg {
+  height: 300px;
+}
+.one img {
+  position: relative;
+}
+.one p {
+  background: #e97171;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  padding: 15px 5px 1px 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  top: 20px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#four {
+  background: #2ec1ac;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  padding: 15px 5px 1px 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  top: 20px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.small1t {
+  background: #f4f5f7;
+}
+
+.classes {
+  position: relative;
+}
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.img1 {
+  position: absolute;
+  top: 80px;
+  left: 85px;
+}
+.img2 {
+  position: relative;
+  top: 5px;
+}
+.img3 {
+  position: relative;
+  left: 5px;
+}
+.img4 {
+  position: relative;
+  top: 10px;
+}
+.middle {
+  position: relative;
+  top: 15px;
+}
+.img5 {
+  position: relative;
+  left: 5px;
+  top: 12px;
+}
+.img6 {
+  position: relative;
+  top: 10px;
+}
+.img7 {
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+#a {
+  top: 32px;
+  height: 350px;
+}
+#b {
+  height: 270px;
+  top: 113px;
+  left: 90px;
+}
+#c {
+  top: 175px;
+  left: 497px;
+}
+#d {
+  height: 320px;
+  top: 110px;
+  left: 810px;
+}
+#e {
+  height: 300px;
+  top: 100px;
+  left: 1090px;
+}
+#f {
+  height: 270px;
+  top: 400px;
+}
+#g {
+  height: 217px;
+  top: 400px;
+  left: 172px;
+}
+#h {
+  top: 463px;
+  left: 815px;
+}
+#i {
+  top: 463px;
+  left: 1012px;
+}
+
+.flexed {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  border: 2px solid orangered;
+}
+.foot {
+  margin-top: 5px;
+}
+.footer {
+  margin: 2rem;
+}
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-flexed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer-flexed div h5 {
+  padding: 20px 0;
+  color: #9f9f9f;
+  font-weight: 500;
+  font-size: 16px;
+
+  text-align: justify;
+}
+.marg {
+  margin-left: 18px;
+}
+.footer-flexed div p {
+  padding: 20px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+}
+.footer-flexed div {
+  margin: 2rem 2.5rem;
+}
+.University {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 2rem;
+}
+.University h4 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin: 15px 15px 30px 0;
+}
+.University p {
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#Email {
+  border-color: transparent;
+  border-bottom: 1px solid #000000;
+  padding: 5px;
+}
+#SUB {
+  border-bottom: 1px solid #000000;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+.line4 {
+  width: 100%;
+  text-align: center;
+}
+.line4 img {
+  width: 93%;
+}
+.line4 p {
+  color: #000000;
+  padding-left: 43px;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 400;
+}
